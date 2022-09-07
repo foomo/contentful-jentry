@@ -66,6 +66,7 @@ const Entry = () => {
   }
   return (<>
   {!editingFieldId && (
+    <>
     <table>
     <tbody>
       <tr>
@@ -99,6 +100,11 @@ const Entry = () => {
     }
     </tbody>
   </table>
+  <h2>Entry Sys</h2>
+  <div className='entrySys'>
+    <pre>{ JSON.stringify(sdk.entry.getSys(),undefined,'  ')}</pre>
+  </div>
+  </>
   )}
   { editingFieldId && (
     <FieldEditor 
