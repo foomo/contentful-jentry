@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      font-weight: 400;
+      color: rgb(90, 101, 124);
+      font-size: 0.875rem;
+    }
+    pre.fieldValue {
+      position: relative;
+      font-family: 'Fira Mono', monospace;
+      font-size: 90%;
+      margin: 0;
+      padding: 0;
+      white-space: pre-wrap; 
+    }
+    div.fieldValueTools {
+      position: absolute;
+      top: 0;
+      right: 3px;
+      font-weight: 600;
+    }
+    div.fieldValueTools > a {
+        display: inline-block;
+        background-color: rgb(3, 111, 227);
+        color: #ffffff;
+        border-radius: 3px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        text-decoration: none;
+        margin-left: 3px;
+        padding: 0 3px;
+    }
+    div.fieldEditorWrapper {
+      position: relative;
+      background-color: rgb(247,249,250);
+    }
+    div.json-monaco {
+      height:100vh; 
+      overflow:hidden;
+    }
+    div.fieldEditorToolbar {
+      display:flex;
+      justify-content: space-between;
+      align-content: center;
+      padding: 0 0 0 10px;
+    }
+    div.fieldEditorToolbar > h3 {
+      display: inline-block;
+      margin: 8px 0 6px 0;
+    }
+    div.fieldEditorToolbar > div.buttons {
+      display: inline-block;
+      margin: 6px;
+    }
+    div.fieldEditorToolbar > div.buttons > a {
+      display: inline-block;
+        color: #ffffff;
+        border-radius: 3px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 0.9em;
+        font-weight: 600;
+        text-decoration: none;
+        margin-left: 9px;
+        padding: 3px 6px;
+    }
+    a.button {
+      cursor: pointer;
+    }
+    a.save {
+      background-color: rgb(0, 133, 57);
+    }
+    a.cancel {
+      background-color: rgb(133, 133, 133);
+    }
+  
+    table {
+      border-top: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+      width: 100%;
+    }
+    th {
+      background-color: #cfd9e0;
+    }
+    td {
+      background-color: rgb(247,249,250);
+      vertical-align: top;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      font-weight: 400;
+      font-size: 0.875rem;
+      padding: 0.25rem;
+    }
+    td.even {
+      background-color: #eaf2f5;
+    }
+    td.fieldId {
+      font-weight: 600;
+    }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+      To begin the development, run `npm start`.
+      To create a production bundle, use `npm run build`.
+    -->
+  </body>
+</html>
